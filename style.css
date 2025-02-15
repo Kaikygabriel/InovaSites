@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.icon-menu{
+    color: white;
+}
+.escolha{
+    background-color: #562686;
+    width: 50px;
+    height: 25px;
+    border-radius:30px ;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    transition: 3s ease-in-out;
+}
+.bola{
+    background-color: black;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -1px;
+    position: fixed;
+    border-bottom: 1px solid #562686;
+    width: 100vw;
+    height: 65px;
+    background-color: black;
+}
+.Portifolio{
+    font-size: 25px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:column-reverse ;
+    
+}
+.logo-div{
+    background-image: url(img-logo.jpeg);
+    background-size: cover;
+    background-position: center center;
+    width: 230px;
+    height: 230px;
+    margin-top: 100px;
+}
+#h1-logo{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.inova{
+    color:#562686;
+}
+.texto-1{
+
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.texto-1 > p{
+    text-align: center;
+    margin: auto;
+   color: #828282;
+   font-size: 14px;
+   font-weight: bold;
+}
+.escolha-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cont{
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(140,52,228,0.8747099767981439) 21%, rgba(86,38,134,1) 72%);
+    transition: 0.3s ease-out;
+    color: white;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.inst{
+   border: 1px solid #562686;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+}
+.inst:hover{
+    background-color: #562686;
+}
+.cont:hover{
+    background-color: #562686;
+}
+ 
+ /* main */
+ /* s1 */
+ .s1{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+ }
+.s1 > h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.s1 > p{
+    color: #828282;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* s2 */
+.s2{
+    margin-top: 100px;
+}
+.s2 > h1{
+    text-align: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.s2 > h2{
+    font-size: 20px;
+    border-bottom: 1px solid #562686;
+    width: 110px;
+    margin: auto;
+    margin-left: 14px;
+}
+/* img class */
+.img1{
+    background-image: url(img1.jpeg);
+    background-position: center center;
+    background-size: cover  ;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.img1-url{
+    margin: auto;
+    width: 300px;
+    height: 30px;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0px 0px 10px 10px;
+}
+.mais{
+    font-weight: bolder;
+    padding: 5px;
+    background-color: #562686;
+    border-radius: 10px;
+}
+.img2{
+    background-image: url(img2.jpeg);
+    background-position: center center;
+    background-size: cover  ;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.img3{
+    background-image: url(img3.jpeg);
+    background-position: center top;
+    background-size: cover  ;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.s3{
+    margin-top: 100px;
+}
+.s3 > h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #562686;
+    margin: auto;
+    width: 150px;
+}
+.contato-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.git-div{
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    background-color: #212121;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+.git > p{
+    text-align: center;
+    color: #828282;
+}
+.email-div{
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    background-color: #212121;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+.email > p{
+    text-align: center;
+    color: #828282;
+}
+.email > h1{
+    font-size: 18px;
+    text-align: center;
+}
+.git > h1{
+    font-size: 18px;
+    text-align: center; 
+}
