@@ -7,8 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="menu">
-        <p><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" class="icon-menu" ></svg></p>
+ 
+    <section id="menuOp1">
+        <p >Contato</p>
+        <p >Inicio</p>
+        <p >Projetos</p>
+    </section>
+
+    <div class="menu" >
+        <p id="abrir" onclick="Menu()" ><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" class="icon-menu" ></svg></p>
+      <p id="fecha" onclick="Menu()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="white" ><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+     </p>
         <p class="Portifolio">Portifolio</p>
         <div class="escolha"onclick="clicou()" id="escolha" style="justify-content: start;">
             <div class="bola"></div>
@@ -52,24 +62,33 @@ Com uma equipe experiente e dedicada, buscamos sempre entender as necessidades e
                 <div></div>
                 <div class="d3">
                     <div class="img3"></div>
-                    <div class="img1-url"><p>RN Mudanças</p><p class="mais">ver mais</p></div>
+                    <div class="img1-url"><p>3L Mudanças</p><p class="mais">ver mais</p></div>
                 <div></div>
             </div>
-            <section class="s3">
-                <h1 class="texto" >contatos</h1>
-                <div class="contato-div">
-                   <div class="git">
-                    <div class="git-div"><img src="img-email.svg" alt=""></div>
-                    <h1 class="texto">E-mail</h1>
-                    <p class="texto">inovasite@gmail.com</p>
-                  </div>
-                  <div class="email">
-                    <div class="email-div"><img src="img-git.svg" alt=""></div>
-                    <h1 class="texto">Git Hub</h1>
-                    <p class="texto">Kaiky gabriel alves</p>
-                  </div>
-                </div>
-            </section>
+          <h2 id="transfor" class="texto">Transformações</h2>
+            <div class="div-insta">
+                <img src="img-antes.jpeg" alt="">
+                <img src="img-insta-deppois.jpeg" alt="">
+            </div>
+            <div class="div-txt-insta">
+                <p >Antes</p>
+                <p >Depois</p>
+            </div>
+        </section>
+        <section class="s3">
+            <h1 class="texto" >contatos</h1>
+            <div class="contato-div">
+               <div class="git">
+                <div class="git-div"><img src="img-email.svg" alt=""></div>
+                <h1 class="texto">E-mail</h1>
+                <p class="texto">inovasite@gmail.com</p>
+              </div>
+              <div class="email">
+                <div class="email-div"><img src="img-git.svg" alt=""></div>
+                <h1 class="texto">Git Hub</h1>
+                <p class="texto">Kaiky gabriel alves</p>
+              </div>
+            </div>
         </section>
         <script src="script.js"></script>
     </main>

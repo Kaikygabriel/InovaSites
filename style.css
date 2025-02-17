@@ -4,6 +4,37 @@
     margin: 0px;
     padding: 0px;
     font-family:Arial, Helvetica, sans-serif ;
+
+}
+/* menu */
+#abrir{
+    display: block;
+}
+#fecha{
+    display: none;
+}
+#menuOp1{
+    
+    position: fixed;
+    top: 50%;
+    left: -100%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.671);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#menuOp1 > p{
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 14px;
+}
+/*  */
+p,h1,h2{
+    transition: 0.3s ease-out;
 }
 body{
     width: 100vw;
@@ -22,7 +53,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: start;
-    transition: 3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .bola{
     background-color: black;
@@ -105,9 +136,11 @@ header{
 }
 .inst:hover{
     background-color: #562686;
+    
 }
 .cont:hover{
     background-color: #562686;
+ 
 }
  
  /* main */
@@ -143,10 +176,47 @@ header{
 }
 .s2 > h2{
     font-size: 20px;
-    border-bottom: 1px solid #562686;
+    border-bottom: 2px solid #562686;
     width: 110px;
     margin: auto;
     margin-left: 14px;
+}
+#transfor{
+    font-size: 20px;
+    border-bottom: 2px solid #562686;
+    width: 160px;
+    margin: auto;
+    margin-left: 14px;
+    margin-top: 32px;
+}
+.div-insta{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-insta > img {
+    width: 170px;
+    height: 360px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+.div-txt-insta{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-txt-insta > p{
+    border-radius: 0px 0px 10px 10px;
+    width: 170px;
+    background-color: #212121;
+    font-size: 17px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
 }
 /* img class */
 .img1{
@@ -200,6 +270,7 @@ header{
 
 }
 
+/* s3 */
 .s3{
     margin-top: 100px;
 }
@@ -207,7 +278,7 @@ header{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 1px solid #562686;
+    border-bottom: 2px solid #562686;
     margin: auto;
     width: 150px;
 }
